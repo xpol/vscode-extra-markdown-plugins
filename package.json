@@ -30,8 +30,10 @@
   "contributes": {
     "markdown.markdownItPlugins": true
   },
-  "main": "./extension.js",
-  "scripts": {},
+  "main": "./dist/extension.js",
+  "scripts": {
+    "vscode:prepublish": "webpack --mode production"
+  },
   "devDependencies": {
     "@types/vscode": "^1.33",
     "webpack": "^4.30.0",

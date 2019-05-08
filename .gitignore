@@ -2,3 +2,4 @@
 *.log
 *.vsix
 node_modules
+dist

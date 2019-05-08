@@ -1,4 +1,5 @@
 .editorconfig
 .gitignore
 .vscode/**
+node_modules
 webpack.config.js

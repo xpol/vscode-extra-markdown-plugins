@@ -5,7 +5,7 @@ const path = require('path');
 const config = {
   target: 'node',
 
-  entry: './extension.js',
+  entry: './src/extension.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'extension.js',

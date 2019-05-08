@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "displayName": "Extra Markdown Plugins",
   "icon": "logo/logo.png",
-  "description": "Adds atts task-lists and html5-embed support to VS Code's built-in markdown preview",
+  "description": "Adds extra markdown features support to VS Code's built-in markdown preview.",
   "keywords": [
     "atts",
     "task lists",
@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "markdown-it-attrs": "^2.3.4",
+    "markdown-it-deflist": "^2.0.3",
     "markdown-it-html5-embed": "^1.0.0",
     "markdown-it-task-lists": "^2.1.1"
   }

@@ -6,6 +6,7 @@ function activate(context) {
             console.log("Activating markdown extras...")
             return md
                 .use(require("markdown-it-attrs"))
+                .use(require("markdown-it-deflist"))
                 .use(require("markdown-it-html5-embed"), {
                     html5embed: {
                         useImageSyntax: false,

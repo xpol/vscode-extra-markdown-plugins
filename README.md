@@ -1,6 +1,6 @@
 [![](https://vsmarketplacebadge.apphb.com/version/xpol.extra-markdown-plugins.svg)](https://marketplace.visualstudio.com/items?itemName=xpol.extra-markdown-plugins)
 
-Adds extra plugins support to VS Code's built-in markdown preview.
+Adds extra markdown features support to VS Code's built-in markdown preview.
 
 ## How this extensions works
 

@@ -1,0 +1,45 @@
+{
+  "name": "extra-markdown-plugins",
+  "version": "0.1.0",
+  "displayName": "Extra Markdown Plugins",
+  "icon": "logo/logo.png",
+  "description": "Adds atts task-lists and html5-embed support to VS Code's built-in markdown preview",
+  "keywords": [
+    "atts",
+    "task lists",
+    "html5 embed",
+    "markdown",
+    "md",
+    "preview"
+  ],
+  "publisher": "xpol",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/xpol/vscode-extra-markdown-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xpol/vscode-extra-markdown-plugins/issues"
+  },
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "contributes": {
+    "markdown.markdownItPlugins": true
+  },
+  "main": "./extension.js",
+  "scripts": {},
+  "devDependencies": {
+    "@types/vscode": "^1.33",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^2.3.4",
+    "markdown-it-html5-embed": "^1.0.0",
+    "markdown-it-task-lists": "^2.1.1"
+  }
+}

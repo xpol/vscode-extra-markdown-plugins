@@ -9,7 +9,7 @@ function activate(context) {
                 .use(require("markdown-it-deflist"))
                 .use(require("markdown-it-html5-embed"), {
                     html5embed: {
-                        useImageSyntax: false,
+                        useImageSyntax: true,
                         useLinkSyntax: true
                     }
                 })

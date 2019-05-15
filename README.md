@@ -10,7 +10,7 @@ Visual studio markdown preview uses [markdown it](https://github.com/markdown-it
 
 - [markdown-it-atts](https://github.com/arve0/markdown-it-attrs)
 - [markdown-it-deflist](https://github.com/markdown-it/markdown-it-deflist)
-- [markdown-it-html5-embed](https://github.com/cmrd-senya/markdown-it-html5-embed) Yes yes! I know vscode can playback audio and video. But the [vscodium][] (binary releases of VS Code without MS branding/telemetry/licensing) can.
+- [markdown-it-html5-embed](https://github.com/cmrd-senya/markdown-it-html5-embed) Yes yes! I know vscode can playback audio and video. You can use [this method](https://gist.github.com/xpol/483ec9967d0a3d14791374947ecf0ec8) to enabled it.
 - [markdown-it-task-lists](https://github.com/revin/markdown-it-task-lists)
 
 [vscodium]: https://github.com/VSCodium/vscodium

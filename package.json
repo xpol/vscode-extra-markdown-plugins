@@ -1,6 +1,6 @@
 {
   "name": "extra-markdown-plugins",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "displayName": "Extra Markdown Plugins",
   "icon": "logo/logo.png",
   "description": "Adds extra markdown features support to VS Code's built-in markdown preview.",
